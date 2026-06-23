@@ -1,0 +1,107 @@
+QSLRecoder/Views/QSLBatchEditView.swift
+  h_a0b456fcb49f78 1-163
+QSLRecoder/Views/RepeaterEditView.swift
+  h_a0b456fcb49f78 1-217
+QSLRecoder/Services/LocationManager.swift
+  h_a0b456fcb49f78 1-124
+QSLRecoder/Models/QSLBatch.swift
+  h_a0b456fcb49f78 1-55
+QSLRecoder/Views/QSOListView.swift
+  h_a0b456fcb49f78 1-310
+QSLRecoder/Views/SettingsView.swift
+  h_a0b456fcb49f78 1-326
+QSLRecoder/Resources/en.lproj/Localizable.strings
+  h_a0b456fcb49f78 1-202
+QSLRecoder/Views/ContentView.swift
+  h_a0b456fcb49f78 1-53
+QSLRecoder/Models/QSO.swift
+  h_a0b456fcb49f78 1-110
+QSLRecoder/Info.plist
+  h_a0b456fcb49f78 1-94
+功能描述.md
+  d807bf428beea575 1-26,28-54,57-108,110-117,119,121-147,149-162
+  h_a0b456fcb49f78 27,55-56,109,118,120,148
+QSLRecoder/Assets.xcassets/AccentColor.colorset/Contents.json
+  h_a0b456fcb49f78 1-20
+QSLRecoder/Assets.xcassets/Contents.json
+  h_a0b456fcb49f78 1-6
+QSLRecoder/Models/Repeater.swift
+  h_a0b456fcb49f78 1-67
+QSLRecoder.xcodeproj/project.pbxproj
+  h_a0b456fcb49f78 1-426
+QSLRecoder/Views/QSOEditView.swift
+  h_a0b456fcb49f78 1-406
+QSLRecoder/Services/CallsignLookupService.swift
+  h_a0b456fcb49f78 1-118
+QSLRecoder/Utils/Helpers.swift
+  h_a0b456fcb49f78 1-125
+QSLRecoder/Resources/zh-Hans.lproj/Localizable.strings
+  h_a0b456fcb49f78 1-202
+QSLRecoder/Views/StatisticsView.swift
+  h_a0b456fcb49f78 1-303
+QSLRecoder/Services/ADIFService.swift
+  h_a0b456fcb49f78 1-315
+QSLRecoder/QSLRecoderApp.swift
+  h_a0b456fcb49f78 1-27
+QSLRecoder/Models/SupportModels.swift
+  h_a0b456fcb49f78 1-119
+QSLRecoder/Assets.xcassets/AppIcon.appiconset/Contents.json
+  h_a0b456fcb49f78 1-13
+QSLRecoder/Views/RepeaterListView.swift
+  h_a0b456fcb49f78 1-137
+QSLRecoder/Views/QSLManagementView.swift
+  h_a0b456fcb49f78 1-243
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "fd41f413cef08468f0c77dd828af0f9ea058f468",
+  "prompts": {
+    "83335b048e347e7e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "108625f5-cc1a-4212-b719-32a0042fc793",
+        "model": "oaicopilot/qwen3.7-plus"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/385a15885c1290447652555e9560aa2b8eff5cc556e8a31a3b18502f7ecb06be"
+    },
+    "d807bf428beea575": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "e5db364b-5f2c-4b80-9ee7-745a9eb80104",
+        "model": "oaicopilot/qwen3.7-plus"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 237,
+      "total_deletions": 0,
+      "accepted_lines": 155,
+      "overriden_lines": 4,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9ed29d3c135432013d4374c68affe9c01f8b90c45017e4c0f7bdcd97ae04b909"
+    },
+    "fbd0a7434a0e56c7": {
+      "agent_id": {
+        "tool": "known_human",
+        "id": "known_human_session",
+        "model": "unknown"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 4546,
+      "total_deletions": 91,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_a0b456fcb49f78": {
+      "author": "wuzhihao"
+    }
+  }
+}

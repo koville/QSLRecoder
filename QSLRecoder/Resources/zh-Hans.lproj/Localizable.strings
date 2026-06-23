@@ -1,0 +1,202 @@
+/* QSLRecoder - 中文简体本地化 */
+
+/* Tabs */
+"tab_log" = "通联日志";
+"tab_qsl" = "QSL卡片";
+"tab_stats" = "统计分析";
+"tab_settings" = "设置";
+
+/* QSO List */
+"qso_list_title" = "通联日志";
+"qso_list_search" = "搜索呼号、国家、模式...";
+"qso_list_add" = "新增通联";
+"qso_list_import" = "导入ADIF";
+"qso_list_export" = "导出ADIF";
+"qso_list_select" = "选择";
+"qso_list_done" = "完成";
+
+/* Filter modes */
+"filter_all" = "全部";
+"filter_unconfirmed" = "未确认";
+"filter_confirmed" = "已确认";
+"filter_this_month" = "本月";
+"filter_pending_qsl" = "待发送QSL";
+
+/* Sort orders */
+"sort_date_desc" = "最新优先";
+"sort_date_asc" = "最早优先";
+"sort_callsign_asc" = "呼号升序";
+"sort_callsign_desc" = "呼号降序";
+"sort_band_asc" = "频段升序";
+
+/* QSO Edit */
+"qso_edit_title_new" = "新增通联";
+"qso_edit_title_edit" = "编辑通联";
+"qso_section_contact" = "通联信息";
+"qso_section_signal" = "信号报告";
+"qso_section_station" = "台站信息";
+"qso_section_qsl" = "QSL卡片";
+"qso_section_comment" = "备注";
+"qso_callsign" = "呼号";
+"qso_start_time" = "开始时间";
+"qso_end_time" = "结束时间";
+"qso_band" = "频段";
+"qso_frequency" = "频率 (MHz)";
+"qso_mode" = "模式";
+"qso_rst_sent" = "发送 (RST)";
+"qso_rst_rcvd" = "接收 (RST)";
+"qso_power" = "发射功率 (W)";
+"qso_country" = "国家/地区";
+"qso_cq_zone" = "CQ分区";
+"qso_itu_zone" = "ITU分区";
+"qso_grid" = "网格定位";
+"qso_name" = "操作员姓名";
+"qso_qsl_sent_status" = "发送状态";
+"qso_qsl_rcvd_status" = "接收状态";
+"qso_qsl_sent_date" = "发送日期";
+"qso_qsl_rcvd_date" = "接收日期";
+"qso_qsl_via" = "发送方式";
+"qso_save" = "保存";
+"qso_cancel" = "取消";
+"qso_duplicate_warning" = "重复通联";
+"qso_duplicate_message" = "已存在相同呼号、时间、频段和模式的通联记录，是否继续保存？";
+"qso_continue" = "继续保存";
+"qso_go_back" = "返回修改";
+
+/* QSL Status */
+"qsl_yes" = "已确认";
+"qsl_no" = "未确认";
+"qsl_requested" = "已请求";
+"qsl_invalid" = "无效";
+
+/* QSL Management */
+"qsl_title" = "QSL卡片";
+"qsl_batches" = "发送批次";
+"qsl_pending" = "待处理";
+"qsl_tracking" = "状态追踪";
+"qsl_new_batch" = "新增批次";
+"qsl_no_batches" = "暂无发送批次";
+"qsl_batch_description" = "创建批次来组织和管理待发送的QSL卡片";
+"qsl_create_batch" = "创建批次";
+"qsl_no_pending" = "没有待处理的QSL";
+"qsl_all_processed" = "所有QSL卡片都已处理完成";
+"qsl_to_send" = "待发送";
+"qsl_to_confirm" = "待确认";
+"qsl_mark_sent" = "标记已发送";
+"qsl_mark_received" = "标记已收到";
+"qsl_stats_overview" = "统计概览";
+"qsl_total_qsos" = "总通联数";
+"qsl_sent_count" = "已发送";
+"qsl_rcvd_count" = "已收到";
+"qsl_confirmed_count" = "已确认";
+"qsl_send_rate" = "发送率";
+"qsl_rcvd_rate" = "回收率";
+"qsl_confirm_rate" = "确认率";
+"qsl_by_via" = "按发送方式";
+
+/* QSL Batch Edit */
+"batch_edit_title_new" = "新增批次";
+"batch_edit_title_edit" = "编辑批次";
+"batch_section_info" = "批次信息";
+"batch_name" = "批次名称";
+"batch_destination" = "目的地";
+"batch_via" = "发送方式";
+"batch_send_date" = "发送日期";
+"batch_status" = "状态";
+"batch_section_remark" = "备注";
+"batch_section_qso" = "选择通联记录";
+"batch_save" = "保存";
+"batch_cancel" = "取消";
+
+/* Batch Status */
+"batch_pending" = "待发送";
+"batch_sent" = "已发送";
+"batch_completed" = "已完成";
+
+/* Batch Via */
+"via_bureau" = "Bureau";
+"via_direct" = "Direct";
+"via_lotw" = "LoTW";
+"via_eqsl" = "eQSL";
+
+/* Statistics */
+"stats_title" = "统计分析";
+"stats_period_all" = "全部";
+"stats_period_year" = "今年";
+"stats_period_month" = "本月";
+"stats_period_week" = "本周";
+"stats_total_qsos" = "总通联数";
+"stats_dxcc" = "DXCC";
+"stats_waz" = "WAZ";
+"stats_confirm_rate" = "确认率";
+"stats_band_dist" = "频段分布";
+"stats_mode_dist" = "模式分布";
+"stats_top_countries" = "热门国家/地区";
+"stats_view_all" = "查看全部";
+"stats_qsl_stats" = "QSL卡片统计";
+"stats_sent" = "已发送";
+"stats_rcvd" = "已收到";
+"stats_confirmed" = "已确认";
+"stats_no_data" = "暂无通联记录";
+"stats_no_data_desc" = "添加通联记录后，这里将显示统计分析";
+
+/* Settings */
+"settings_title" = "设置";
+"settings_my_station" = "我的电台";
+"settings_station_info" = "电台信息";
+"settings_qsl_template" = "QSL卡片模板";
+"settings_data_management" = "数据管理";
+"settings_import_adif" = "导入ADIF文件";
+"settings_export_data" = "导出数据";
+"settings_backup_restore" = "备份与恢复";
+"settings_icloud" = "iCloud";
+"settings_icloud_sync" = "iCloud 同步";
+"settings_statistics" = "数据统计";
+"settings_qso_count" = "通联记录数";
+"settings_batch_count" = "QSL批次";
+"settings_about" = "关于";
+"settings_version" = "版本";
+"settings_app_name" = "应用名称";
+"settings_reset" = "重置所有数据";
+"settings_reset_confirm" = "确认重置";
+"settings_reset_message" = "这将删除所有通联记录和QSL批次数据。此操作不可撤销！";
+"settings_confirm_delete" = "确认删除";
+"settings_cancel" = "取消";
+"settings_import_success" = "导入成功";
+"settings_import_failed" = "导入失败";
+
+/* My Station */
+"station_title" = "电台信息";
+"station_section_basic" = "基本信息";
+"station_callsign" = "我的呼号";
+"station_name" = "姓名";
+"station_grid" = "网格定位";
+"station_section_qsl" = "QSL信息";
+"station_qthr" = "QSL通过";
+"station_hint" = "这些信息将用于QSL卡片模板和数据导出";
+
+/* iCloud */
+"icloud_title" = "iCloud";
+"icloud_enable" = "启用iCloud同步";
+"icloud_last_sync" = "上次同步";
+"icloud_sync_now" = "立即同步";
+"icloud_description" = "启用后，您的通联记录将自动同步到iCloud，可在其他设备上访问。";
+
+/* Export format */
+"export_adif" = "ADIF格式";
+"export_csv" = "CSV格式";
+"export_cancel" = "取消";
+
+/* Backup */
+"backup_create" = "创建备份";
+"backup_restore" = "从备份恢复";
+"backup_cancel" = "取消";
+
+/* Common */
+"common_ok" = "确定";
+"common_cancel" = "取消";
+"common_save" = "保存";
+"common_delete" = "删除";
+"common_edit" = "编辑";
+"common_unknown" = "未知";
+"common_unspecified" = "未指定";

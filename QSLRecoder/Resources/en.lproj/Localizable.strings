@@ -1,0 +1,202 @@
+/* QSLRecoder - English Localization */
+
+/* Tabs */
+"tab_log" = "QSO Log";
+"tab_qsl" = "QSL Cards";
+"tab_stats" = "Statistics";
+"tab_settings" = "Settings";
+
+/* QSO List */
+"qso_list_title" = "QSO Log";
+"qso_list_search" = "Search callsign, country, mode...";
+"qso_list_add" = "Add QSO";
+"qso_list_import" = "Import ADIF";
+"qso_list_export" = "Export ADIF";
+"qso_list_select" = "Select";
+"qso_list_done" = "Done";
+
+/* Filter modes */
+"filter_all" = "All";
+"filter_unconfirmed" = "Unconfirmed";
+"filter_confirmed" = "Confirmed";
+"filter_this_month" = "This Month";
+"filter_pending_qsl" = "Pending QSL";
+
+/* Sort orders */
+"sort_date_desc" = "Newest First";
+"sort_date_asc" = "Oldest First";
+"sort_callsign_asc" = "Callsign A-Z";
+"sort_callsign_desc" = "Callsign Z-A";
+"sort_band_asc" = "Band A-Z";
+
+/* QSO Edit */
+"qso_edit_title_new" = "New QSO";
+"qso_edit_title_edit" = "Edit QSO";
+"qso_section_contact" = "Contact Information";
+"qso_section_signal" = "Signal Reports";
+"qso_section_station" = "Station Information";
+"qso_section_qsl" = "QSL Card";
+"qso_section_comment" = "Comment";
+"qso_callsign" = "Callsign";
+"qso_start_time" = "Start Time";
+"qso_end_time" = "End Time";
+"qso_band" = "Band";
+"qso_frequency" = "Frequency (MHz)";
+"qso_mode" = "Mode";
+"qso_rst_sent" = "Sent (RST)";
+"qso_rst_rcvd" = "Received (RST)";
+"qso_power" = "TX Power (W)";
+"qso_country" = "Country/Region";
+"qso_cq_zone" = "CQ Zone";
+"qso_itu_zone" = "ITU Zone";
+"qso_grid" = "Grid Locator";
+"qso_name" = "Operator Name";
+"qso_qsl_sent_status" = "Sent Status";
+"qso_qsl_rcvd_status" = "Received Status";
+"qso_qsl_sent_date" = "Sent Date";
+"qso_qsl_rcvd_date" = "Received Date";
+"qso_qsl_via" = "Via";
+"qso_save" = "Save";
+"qso_cancel" = "Cancel";
+"qso_duplicate_warning" = "Duplicate QSO";
+"qso_duplicate_message" = "A QSO with the same callsign, time, band and mode already exists. Continue saving?";
+"qso_continue" = "Continue";
+"qso_go_back" = "Go Back";
+
+/* QSL Status */
+"qsl_yes" = "Confirmed";
+"qsl_no" = "Not Confirmed";
+"qsl_requested" = "Requested";
+"qsl_invalid" = "Invalid";
+
+/* QSL Management */
+"qsl_title" = "QSL Cards";
+"qsl_batches" = "Batch";
+"qsl_pending" = "Pending";
+"qsl_tracking" = "Tracking";
+"qsl_new_batch" = "New Batch";
+"qsl_no_batches" = "No Batch";
+"qsl_batch_description" = "Create batches to organize QSL cards to be sent";
+"qsl_create_batch" = "Create Batch";
+"qsl_no_pending" = "No Pending QSL";
+"qsl_all_processed" = "All QSL cards have been processed";
+"qsl_to_send" = "To Send";
+"qsl_to_confirm" = "To Confirm";
+"qsl_mark_sent" = "Mark Sent";
+"qsl_mark_received" = "Mark Received";
+"qsl_stats_overview" = "Statistics Overview";
+"qsl_total_qsos" = "Total QSOs";
+"qsl_sent_count" = "Sent";
+"qsl_rcvd_count" = "Received";
+"qsl_confirmed_count" = "Confirmed";
+"qsl_send_rate" = "Send Rate";
+"qsl_rcvd_rate" = "Return Rate";
+"qsl_confirm_rate" = "Confirm Rate";
+"qsl_by_via" = "By Via";
+
+/* QSL Batch Edit */
+"batch_edit_title_new" = "New Batch";
+"batch_edit_title_edit" = "Edit Batch";
+"batch_section_info" = "Batch Info";
+"batch_name" = "Batch Name";
+"batch_destination" = "Destination";
+"batch_via" = "Via";
+"batch_send_date" = "Send Date";
+"batch_status" = "Status";
+"batch_section_remark" = "Remark";
+"batch_section_qso" = "Select QSO Records";
+"batch_save" = "Save";
+"batch_cancel" = "Cancel";
+
+/* Batch Status */
+"batch_pending" = "Pending";
+"batch_sent" = "Sent";
+"batch_completed" = "Completed";
+
+/* Batch Via */
+"via_bureau" = "Bureau";
+"via_direct" = "Direct";
+"via_lotw" = "LoTW";
+"via_eqsl" = "eQSL";
+
+/* Statistics */
+"stats_title" = "Statistics";
+"stats_period_all" = "All";
+"stats_period_year" = "This Year";
+"stats_period_month" = "This Month";
+"stats_period_week" = "This Week";
+"stats_total_qsos" = "Total QSOs";
+"stats_dxcc" = "DXCC";
+"stats_waz" = "WAZ";
+"stats_confirm_rate" = "Confirm Rate";
+"stats_band_dist" = "Band Distribution";
+"stats_mode_dist" = "Mode Distribution";
+"stats_top_countries" = "Top Countries";
+"stats_view_all" = "View All";
+"stats_qsl_stats" = "QSL Card Statistics";
+"stats_sent" = "Sent";
+"stats_rcvd" = "Received";
+"stats_confirmed" = "Confirmed";
+"stats_no_data" = "No QSO Records";
+"stats_no_data_desc" = "Statistics will be shown after adding QSO records";
+
+/* Settings */
+"settings_title" = "Settings";
+"settings_my_station" = "My Station";
+"settings_station_info" = "Station Info";
+"settings_qsl_template" = "QSL Card Template";
+"settings_data_management" = "Data Management";
+"settings_import_adif" = "Import ADIF";
+"settings_export_data" = "Export Data";
+"settings_backup_restore" = "Backup & Restore";
+"settings_icloud" = "iCloud";
+"settings_icloud_sync" = "iCloud Sync";
+"settings_statistics" = "Data Statistics";
+"settings_qso_count" = "QSO Records";
+"settings_batch_count" = "QSL Batches";
+"settings_about" = "About";
+"settings_version" = "Version";
+"settings_app_name" = "App Name";
+"settings_reset" = "Reset All Data";
+"settings_reset_confirm" = "Confirm Reset";
+"settings_reset_message" = "This will delete all QSO records and QSL batch data. This action cannot be undone!";
+"settings_confirm_delete" = "Confirm Delete";
+"settings_cancel" = "Cancel";
+"settings_import_success" = "Import Successful";
+"settings_import_failed" = "Import Failed";
+
+/* My Station */
+"station_title" = "Station Info";
+"station_section_basic" = "Basic Information";
+"station_callsign" = "My Callsign";
+"station_name" = "Name";
+"station_grid" = "Grid Locator";
+"station_section_qsl" = "QSL Info";
+"station_qthr" = "QSL Via";
+"station_hint" = "This info will be used in QSL card templates and data export";
+
+/* iCloud */
+"icloud_title" = "iCloud";
+"icloud_enable" = "Enable iCloud Sync";
+"icloud_last_sync" = "Last Sync";
+"icloud_sync_now" = "Sync Now";
+"icloud_description" = "When enabled, your QSO records will be synced to iCloud automatically and accessible on other devices.";
+
+/* Export format */
+"export_adif" = "ADIF Format";
+"export_csv" = "CSV Format";
+"export_cancel" = "Cancel";
+
+/* Backup */
+"backup_create" = "Create Backup";
+"backup_restore" = "Restore from Backup";
+"backup_cancel" = "Cancel";
+
+/* Common */
+"common_ok" = "OK";
+"common_cancel" = "Cancel";
+"common_save" = "Save";
+"common_delete" = "Delete";
+"common_edit" = "Edit";
+"common_unknown" = "Unknown";
+"common_unspecified" = "Not Specified";

@@ -1,0 +1,50 @@
+QSLRecoder/Services/ADIFService.swift
+  h_a0b456fcb49f78 123-126,252-263,300,315-317,321
+QSLRecoder/Views/QSLManagementView.swift
+  h_a0b456fcb49f78 23-30,105,112-113,126-127
+QSLRecoder.xcodeproj/project.pbxproj
+  83335b048e347e7e 25-28,48-52,85,104,116-117,129,233-237
+QSLRecoder/Views/QSOEditView.swift
+  h_a0b456fcb49f78 323-329,331-333,338-345
+QSLRecoder/Views/SettingsView.swift
+  h_a0b456fcb49f78 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "f63e7493b12dde655ff29e38de3643b75db8a1e5",
+  "prompts": {
+    "83335b048e347e7e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "108625f5-cc1a-4212-b719-32a0042fc793",
+        "model": "oaicopilot/qwen3.7-plus"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 82,
+      "total_deletions": 0,
+      "accepted_lines": 19,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/bb6991dc80b2810fd7c3fba24d49ec7fcec8ecda0269f49307f7eb42b88a96c8"
+    },
+    "fbd0a7434a0e56c7": {
+      "agent_id": {
+        "tool": "known_human",
+        "id": "known_human_session",
+        "model": "unknown"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 53,
+      "total_deletions": 12,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_a0b456fcb49f78": {
+      "author": "wuzhihao"
+    }
+  }
+}

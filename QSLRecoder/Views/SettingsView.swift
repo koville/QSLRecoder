@@ -291,8 +291,12 @@ struct QSLTemplateView: View {
 }
 
 struct iCloudSettingsView: View {
-    @AppStorage("icloudSyncEnabled") private var icloudSyncEnabled = false
-    @AppStorage("lastSyncDate") private var lastSyncDate = Date.distantPast
+    @AppStorage("icloudSyncEnabled") private var icloudSyncEnabled: Bool = false
+    @AppStorage("lastSyncTimestamp") private var lastSyncTimestamp: Double = Date.distantPast.timeIntervalSinceReferenceDate
+    
+    private var lastSyncDate: Date {
+        Date(timeIntervalSinceReferenceDate: lastSyncTimestamp)
+    }
     
     var body: some View {
         List {
@@ -304,7 +308,7 @@ struct iCloudSettingsView: View {
                     
                     Button("立即同步") {
                         // TODO: Implement iCloud sync
-                        lastSyncDate = Date()
+                        lastSyncTimestamp = Date().timeIntervalSinceReferenceDate
                     }
                 }
             }

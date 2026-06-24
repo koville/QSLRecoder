@@ -291,20 +291,20 @@ struct QSOEditView: View {
     
     private func fetchCurrentLocation() {
         isFetchingLocation = true
-        locationManager.getCurrentLocationInfo { [weak self] grid, city, province, address, error in
+        locationManager.getCurrentLocationInfo { grid, city, province, address, error in
             DispatchQueue.main.async {
-                self?.isFetchingLocation = false
+                isFetchingLocation = false
                 if let grid = grid {
-                    self?.gridLocator = grid
+                    gridLocator = grid
                 }
                 if let city = city, !city.isEmpty {
-                    self?.city = city
+                    self.city = city
                 }
                 if let province = province, !province.isEmpty {
-                    self?.province = province
+                    self.province = province
                 }
                 if let address = address, !address.isEmpty {
-                    self?.address = address
+                    self.address = address
                 }
                 if let error = error {
                     // Show error message

@@ -1,0 +1,28 @@
+QSLRecoder.xcodeproj/project.pbxproj
+  h_a0b456fcb49f78 111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "7adfb1a3ff4a9c6b813ae6deb53b1b55521a8019",
+  "prompts": {
+    "fbd0a7434a0e56c7": {
+      "agent_id": {
+        "tool": "known_human",
+        "id": "known_human_session",
+        "model": "unknown"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_a0b456fcb49f78": {
+      "author": "wuzhihao"
+    }
+  }
+}

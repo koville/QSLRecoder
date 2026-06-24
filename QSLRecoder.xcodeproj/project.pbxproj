@@ -75,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				00000000000000000000002 /* QSLRecoderApp.swift */,
-				00000000000000000000004 /* ContentView.swift */,
 				00000000000000000000024 /* Models */,
 				00000000000000000000025 /* Views */,
 				00000000000000000000026 /* Services */,
@@ -109,6 +108,7 @@
 		00000000000000000000025 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00000000000000000000004 /* ContentView.swift */,
 				0000000000000000000000E /* QSOListView.swift */,
 				00000000000000000000010 /* QSOEditView.swift */,
 				00000000000000000000012 /* QSLManagementView.swift */,

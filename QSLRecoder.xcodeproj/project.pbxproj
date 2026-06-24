@@ -22,6 +22,10 @@
 		00000000000000000000019 /* ADIFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001A /* ADIFService.swift */; };
 		0000000000000000000001B /* CallsignLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001C /* CallsignLookupService.swift */; };
 		0000000000000000000001D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001E /* Helpers.swift */; };
+		A0000000000000000000022 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000021 /* Repeater.swift */; };
+		A0000000000000000000024 /* RepeaterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000023 /* RepeaterListView.swift */; };
+		A0000000000000000000026 /* RepeaterEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000025 /* RepeaterEditView.swift */; };
+		A0000000000000000000028 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000027 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,11 @@
 		0000000000000000000001C /* CallsignLookupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsignLookupService.swift; sourceTree = "<group>"; };
 		0000000000000000000001E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		0000000000000000000001F /* QSLRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSLRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000021 /* Repeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
+		A0000000000000000000023 /* RepeaterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeaterListView.swift; sourceTree = "<group>"; };
+		A0000000000000000000025 /* RepeaterEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeaterEditView.swift; sourceTree = "<group>"; };
+		A0000000000000000000027 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A0000000000000000000029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,7 @@
 				00000000000000000000027 /* Utils */,
 				00000000000000000000028 /* Resources */,
 				00000000000000000000006 /* Assets.xcassets */,
+				A0000000000000000000029 /* Info.plist */,
 			);
 			path = QSLRecoder;
 			sourceTree = "<group>";
@@ -91,6 +101,7 @@
 				00000000000000000000008 /* QSO.swift */,
 				0000000000000000000000A /* QSLBatch.swift */,
 				0000000000000000000000C /* SupportModels.swift */,
+				A0000000000000000000021 /* Repeater.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -102,6 +113,8 @@
 				00000000000000000000010 /* QSOEditView.swift */,
 				00000000000000000000012 /* QSLManagementView.swift */,
 				00000000000000000000014 /* QSLBatchEditView.swift */,
+				A0000000000000000000023 /* RepeaterListView.swift */,
+				A0000000000000000000025 /* RepeaterEditView.swift */,
 				00000000000000000000016 /* StatisticsView.swift */,
 				00000000000000000000018 /* SettingsView.swift */,
 			);
@@ -113,6 +126,7 @@
 			children = (
 				0000000000000000000001A /* ADIFService.swift */,
 				0000000000000000000001C /* CallsignLookupService.swift */,
+				A0000000000000000000027 /* LocationManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -216,6 +230,11 @@
 				00000000000000000000019 /* ADIFService.swift in Sources */,
 				0000000000000000000001B /* CallsignLookupService.swift in Sources */,
 				0000000000000000000001D /* Helpers.swift in Sources */,
+				A0000000000000000000022 /* Repeater.swift in Sources */,
+				A0000000000000000000024 /* RepeaterListView.swift in Sources */,
+				A0000000000000000000026 /* RepeaterEditView.swift in Sources */,
+				A0000000000000000000028 /* LocationManager.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

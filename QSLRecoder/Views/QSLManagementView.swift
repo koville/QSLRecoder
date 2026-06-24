@@ -20,6 +20,14 @@ struct QSLManagementView: View {
         allQSOs.filter { $0.qslSent == .no || $0.qslRcvd == .no }
     }
     
+    var notYetSent: [QSO] {
+        allQSOs.filter { $0.qslSent == .no }
+    }
+    
+    var notYetReceived: [QSO] {
+        allQSOs.filter { $0.qslRcvd == .no && $0.qslSent == .yes }
+    }
+    
     var body: some View {
         VStack(spacing: 0) {
             // View mode picker
@@ -94,15 +102,15 @@ struct QSLManagementView: View {
     
     private var pendingView: some View {
         List {
-            if pendingQSOs.isEmpty {
+            if notYetSent.isEmpty && notYetReceived.isEmpty {
                 ContentUnavailableView {
                     Label("没有待处理的QSL", systemImage: "checkmark.circle")
                 } description: {
                     Text("所有QSL卡片都已处理完成")
                 }
             } else {
-                Section("待发送 (\(pendingQSOs.filter { $0.qslSent == .no }.count))") {
-                    ForEach(pendingQSOs.filter { $0.qslSent == .no }) { qso in
+                Section("待发送 (\(notYetSent.count))") {
+                    ForEach(notYetSent) { qso in
                         QSORowView(qso: qso)
                             .swipeActions {
                                 Button {
@@ -115,8 +123,8 @@ struct QSLManagementView: View {
                     }
                 }
                 
-                Section("待确认 (\(pendingQSOs.filter { $0.qslRcvd == .no && $0.qslSent == .yes }.count))") {
-                    ForEach(pendingQSOs.filter { $0.qslRcvd == .no && $0.qslSent == .yes }) { qso in
+                Section("待确认 (\(notYetReceived.count))") {
+                    ForEach(notYetReceived) { qso in
                         QSORowView(qso: qso)
                             .swipeActions {
                                 Button {

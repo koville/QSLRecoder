@@ -320,16 +320,29 @@ struct QSOEditView: View {
     }
     
     private func checkDuplicate() -> Bool {
+        // Check for duplicates: same callsign + band + mode within 30 minutes
+        let targetCallsign = callsign.uppercased()
+        let targetBand = band
+        let targetMode = mode
+        let targetTime = datetimeOn
+        let timeWindow: TimeInterval = 30 * 60 // 30 minutes
+        
         let predicate = #Predicate<QSO> { qso in
-            qso.callsign == callsign &&
-            qso.band == band &&
-            qso.mode == mode &&
+            qso.callsign == targetCallsign &&
+            qso.band == targetBand &&
+            qso.mode == targetMode &&
             !qso.isDeleted
         }
         
         let descriptor = FetchDescriptor<QSO>(predicate: predicate)
-        let existing = try? modelContext.fetch(descriptor)
-        return existing?.isEmpty == false
+        guard let existing = try? modelContext.fetch(descriptor) else {
+            return false
+        }
+        
+        // Check if any existing QSO is within 30 minutes of the new one
+        return existing.contains { qso in
+            abs(qso.datetimeOn.timeIntervalSince(targetTime)) < timeWindow
+        }
     }
     
     private func saveQSO(force: Bool = false) {

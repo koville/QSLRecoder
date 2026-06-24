@@ -3,7 +3,7 @@ import SwiftData
 
 struct SettingsView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var allQSOs: [QSO]
+    @Query(filter: #Predicate<QSO> { !$0.isDeleted }) private var allQSOs: [QSO]
     @Query private var allBatches: [QSLBatch]
     
     @State private var showingImportFilePicker = false

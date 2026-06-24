@@ -120,6 +120,10 @@ class ADIFService {
         qso.country = record["COUNTRY"] ?? ""
         qso.name = record["NAME"] ?? ""
         qso.gridLocator = record["GRIDSQUARE"] ?? ""
+        qso.city = record["QTH"] ?? ""
+        qso.province = record["STATE"] ?? ""
+        qso.address = record["ADDRESS"] ?? ""
+        qso.repeaterName = record["APP_QSLRECODER_REPEATER"] ?? ""
         qso.comment = record["COMMENT"] ?? ""
         
         if let cqStr = record["CQZ"] {
@@ -245,6 +249,18 @@ class ADIFService {
         if !qso.gridLocator.isEmpty {
             record += formatField("GRIDSQUARE", qso.gridLocator)
         }
+        if !qso.city.isEmpty {
+            record += formatField("QTH", qso.city)
+        }
+        if !qso.province.isEmpty {
+            record += formatField("STATE", qso.province)
+        }
+        if !qso.address.isEmpty {
+            record += formatField("ADDRESS", qso.address)
+        }
+        if !qso.repeaterName.isEmpty {
+            record += formatField("APP_QSLRECODER_REPEATER", qso.repeaterName)
+        }
         if !qso.comment.isEmpty {
             record += formatField("COMMENT", qso.comment)
         }
@@ -281,7 +297,7 @@ class ADIFService {
     // MARK: - CSV Export
     
     func exportCSV(qsos: [QSO]) -> String {
-        var csv = "呼号,日期,时间,频段,模式,发送RST,接收RST,功率,国家,CQ区,ITU区,网格,QSL发送,QSL接收,备注\n"
+        var csv = "呼号,日期,时间,频段,模式,发送RST,接收RST,功率,国家,省份,城市,地址,CQ区,ITU区,网格,中继台,QSL发送,QSL接收,备注\n"
         
         for qso in qsos {
             let date = formatDate(qso.datetimeOn)
@@ -296,9 +312,13 @@ class ADIFService {
             csv += "\(qso.rstRcvd),"
             csv += "\(qso.txPwr),"
             csv += "\(qso.country),"
+            csv += "\(qso.province),"
+            csv += "\(qso.city),"
+            csv += "\(qso.address),"
             csv += "\(qso.cqZone),"
             csv += "\(qso.ituZone),"
             csv += "\(qso.gridLocator),"
+            csv += "\(qso.repeaterName),"
             csv += "\(qso.qslSent.displayName),"
             csv += "\(qso.qslRcvd.displayName),"
             csv += "\"\(qso.comment)\"\n"

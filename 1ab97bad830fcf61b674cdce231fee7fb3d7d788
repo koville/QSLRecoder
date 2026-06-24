@@ -1,0 +1,32 @@
+QSLRecoder.xcodeproj/project.pbxproj
+  h_a0b456fcb49f78 296,352
+QSLRecoder/Views/QSOEditView.swift
+  h_a0b456fcb49f78 294,301,304,307
+QSLRecoder/Views/SettingsView.swift
+  h_a0b456fcb49f78 294-295,297-299,311
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "1ab97bad830fcf61b674cdce231fee7fb3d7d788",
+  "prompts": {
+    "fbd0a7434a0e56c7": {
+      "agent_id": {
+        "tool": "known_human",
+        "id": "known_human_session",
+        "model": "unknown"
+      },
+      "human_author": "wuzhihao <wuzhihao@maker-ray.com>",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 12,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_a0b456fcb49f78": {
+      "author": "wuzhihao"
+    }
+  }
+}
